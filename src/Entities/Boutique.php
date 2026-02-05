@@ -6,7 +6,7 @@ class Boutique {
 
 	private $banque;
 
-	public function __construct($banque) {
+	private function __construct($banque) {
 		$this->banque = $banque;
 	}
 
